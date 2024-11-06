@@ -1,0 +1,13 @@
+
+h1, p, figure, ul, li {  /* enlever les marge internes externes*/
+    margin: 0;
+    padding: 0;
+}
+
+body {   /* changer la police de caractere de toutes les balises*/
+    font-family: sans-serif;
+}
+
+ul, li {   
+    list-style: none;
+}
