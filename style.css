@@ -46,3 +46,22 @@ section form * {
 section form textarea {
     height: 80px;
 }
+
+
+/*accueil*/
+
+.container{
+    width: 700px;   /* le design a la larger d'un ecran de tablette et de petits ecrans pc */
+    margin: 0 auto;
+}
+
+header ul {                
+    display: flex;     
+    justify-content: flex-end;
+}
+
+header ul li{
+    margin-left: 20px;
+    font-size: 1.6rem;
+
+}
