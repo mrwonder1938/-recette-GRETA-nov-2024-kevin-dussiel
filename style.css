@@ -1,89 +1,21 @@
-/* reset => remise à zero des règles css */
-h1, p, figure, ul, li { /* enlever les marges interne externe */
-    margin: 0;
-    padding: 0;
-}
-
-body { /* changer la police de caractère de toutes les balises */
-    font-family: sans-serif;
-}
-
-ul, li { /* enlever les points devant les listes */
+header nav ul {
+    display: flex;
     list-style: none;
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin: 0;
 }
 
-/* mise en page => faire en sorte que deux colonnes l'une à côté de l'autre */
-section {
-    width: 700px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-section .col1 {
-    width: 48%;
-}
-section .col2 {
-    width: 48%;
+header nav ul li {
+    margin-right: 20px;
 }
 
-.liste {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 0;
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
 }
 
-section form {
-    display: flex;
-    flex-direction: column;
-}
-
-section form * {
-    margin: 15px 0;
-    padding: 8px 4px;
-    border: 1px solid blue; 
-}
-
-section form textarea {
-    height: 80px;
-}
-
-
-/*accueil*/
-
-.container{
-    width: 700px;   /* le design a la larger d'un ecran de tablette et de petits ecrans pc */
-    margin: 0 auto;
-}
-
-header ul {                
-    display: flex;     
-    justify-content: flex-end;
-}
-
-header ul li{
-    margin-left: 20px;
-    font-size: 1.6rem;
-
-}
-
-.gallerie{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.gallerie article{
-    width: 32%;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.gallerie article img{
-    width: 100px;
-}
-
-.gallerie article h2{
-    flex: 1
+header nav ul li a:hover {
+    color: #007bff;
 }

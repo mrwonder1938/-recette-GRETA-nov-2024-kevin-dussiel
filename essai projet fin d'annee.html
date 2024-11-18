@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hallyu World - Fans de K-pop</title>
+    <!-- Ajoutez des liens vers vos fichiers CSS et autres ressources ici -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">Hallyu World</a>
+            </div>
+            <ul class="navigation">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#ventes">Ventes & Échanges</a></li>
+                <li><a href="#audition">Auditions</a></li>
+                <li><a href="#forum">Forum</a></li>
+                <li><a href="#lotteries">Lotteries</a></li>
+                <li><a href="#random-dance">Random Play Dance</a></li>
+                <li><a href="#connexion">Connexion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Accueil -->
+    <section id="accueil">
+        <h1>Bienvenue sur Hallyu World!</h1>
+        <p>Rejoignez la communauté des fans de K-pop du monde entier.</p>
+        <div class="cta">
+            <button onclick="window.location.href='#ventes'">Acheter & Échanger des Albums</button>
+            <button onclick="window.location.href='#audition'">Envoyez votre Vidéo d'Audition</button>
+        </div>
+    </section>
+
+    <!-- Section Ventes & Échanges -->
+    <section id="ventes">
+        <h2>Ventes & Échanges</h2>
+        <p>Vendez ou échangez vos albums, photocards, posters et plus.</p>
+        <button onclick="window.location.href='#vente-article'">Ajouter un Article</button>
+        <div id="ventes-list">
+            <!-- Affichage dynamique des articles à vendre/échanger -->
+        </div>
+    </section>
+
+    <!-- Section Audition Vidéo -->
+    <section id="audition">
+        <h2>Envoyez Votre Vidéo d'Audition</h2>
+        <p>Montrez votre talent et postulez aux agences de K-pop.</p>
+        <button onclick="window.location.href='#upload-video'">Télécharger votre Vidéo</button>
+        <div id="instructions">
+            <p>Instructions sur la manière de filmer et envoyer la vidéo.</p>
+        </div>
+    </section>
+
+    <!-- Section Forum -->
+    <section id="forum">
+        <h2>Forum de Discussion</h2>
+        <p>Discutez de K-pop, de culture coréenne, et plus!</p>
+        <button onclick="window.location.href='#creer-sujet'">Créer un Sujet</button>
+        <div id="forum-list">
+            <!-- Liste des discussions disponibles -->
+        </div>
+    </section>
+
+    <!-- Section Lotteries -->
+    <section id="lotteries">
+        <h2>Lotteries - Gagnez des Prix!</h2>
+        <p>Participez à nos loteries pour gagner des voyages, des places de concert et plus encore.</p>
+        <button onclick="window.location.href='#participer-loterie'">Participer à la Loterie</button>
+        <div id="lottery-details">
+            <!-- Détails des loteries en cours -->
+        </div>
+    </section>
+
+    <!-- Section Random Play Dance -->
+    <section id="random-dance">
+        <h2>Random Play Dance</h2>
+        <p>Trouvez ou organisez un événement Random Play Dance près de chez vous!</p>
+        <button onclick="window.location.href='#creer-rpd'">Créer un Événement</button>
+        <div id="random-dance-events">
+            <!-- Carte Google Maps ou liste des événements -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Hallyu World | Tous droits réservés</p>
+        <ul>
+            <li><a href="#">Politique de confidentialité</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Mentions légales</a></li>
+        </ul>
+    </footer>
+    
+    <!-- Ajout de fichiers JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
